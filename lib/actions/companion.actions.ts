@@ -1,3 +1,6 @@
+'use server';
+
+
 import { auth } from "@clerk/nextjs/server"
 import { createSupabaseClient } from "../supabase";
 
